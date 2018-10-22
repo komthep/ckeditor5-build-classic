@@ -4,7 +4,7 @@
  */
 
 // The editor creator to use.
-import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor'
+import InlineEditoBase from '@ckeditor/ckeditor5-editor-inline/src/inlineeditor'
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials'
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter'
@@ -26,7 +26,7 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph'
 import Table from '@ckeditor/ckeditor5-table/src/table'
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar'
 
-export default class ClassicEditor extends ClassicEditorBase {}
+export default class ClassicEditor extends InlineEditoBase {}
 
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
