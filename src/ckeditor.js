@@ -11,7 +11,6 @@ import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold'
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic'
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough'
 import Image from '@ckeditor/ckeditor5-image/src/image'
-import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption'
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle'
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar'
 import ImageTextAlternative from '@ckeditor/ckeditor5-image/src/imagetextalternative'
@@ -28,7 +27,6 @@ SabuyEditor.builtinPlugins = [
   Italic,
   Strikethrough,
   Image,
-  ImageCaption,
   ImageStyle,
   ImageToolbar,
   ImageTextAlternative,
