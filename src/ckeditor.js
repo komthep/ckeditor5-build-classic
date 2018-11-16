@@ -14,6 +14,7 @@ import Image from '@ckeditor/ckeditor5-image/src/image'
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption'
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle'
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar'
+import ImageTextAlternative from '@ckeditor/ckeditor5-image/src/imagetextalternative'
 import Link from '@ckeditor/ckeditor5-link/src/link'
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph'
 
@@ -30,6 +31,7 @@ SabuyEditor.builtinPlugins = [
   ImageCaption,
   ImageStyle,
   ImageToolbar,
+  ImageTextAlternative,
   Link,
   Paragraph
 ]
